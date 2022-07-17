@@ -407,38 +407,131 @@ Galeria
       margin-bottom: 15%;
       cursor: pointer;
     }
-    /*
-    
-    .galleryy a:hover{
    
-      top: 23px;
-      left: 657px;
-      width: 80;
-      height: 40px;
-  
-      background: #FFC5FE 0% 0% no-repeat padding-box;
-      border-radius: 50px;
-      opacity: 1;
-     }
-     */
 
-     .cake{
-      display: none;
-     }
-
-     .cupcka .column1 .cake:hover{
+     .info{
       position: absolute;
-      background-color: aqua;
-      display: inline-flex;
-      top: 10%;
-      width: 100%;
+      
+      top: 386px;
+      left: 46px;
+      width: 233px;
+      height: 84px;
+      
+      opacity: 0;
+     }
+
+     .cupcka .info:hover{
+     
+      opacity: 0.9;
+      
+      top: 387px;
+      left: 46px;
+      width: 233px;
+      height: 84px;
+      background: #C598FB 0% 0% no-repeat padding-box;
+      border-radius: 0px 0px 28px 28px;
+      opacity: 0.95;
+
+      text-align: center;
+      font: normal normal normal 43px/75px Coolvetica;
+      letter-spacing: 0px;
+      color: #FFFFFF;
+      
+     }
+
+
+     .info2{
+      position: absolute;
+      
+      top: 386px;
+      left: 346px;
+      width: 233px;
+      height: 84px;
+      
+      opacity: 0;
+     }
+
+     .cupcka .info2:hover{
+     
+      opacity: 0.9;
+      
+      top: 392px;
+      left: 288px;
+      width: 233px;
+      height: 84px;
+      background: #C598FB 0% 0% no-repeat padding-box;
+      border-radius: 0px 0px 28px 28px;
+      opacity: 0.95;
+
+      text-align: center;
+      font: normal normal normal 43px/75px Coolvetica;
+      letter-spacing: 0px;
+      color: #FFFFFF;
+      
+     }
+     
+     .info3{
+      position: absolute;
+      
+      top: 386px;
+      left: 546px;
+      width: 233px;
+      height: 84px;
+      
+      opacity: 0;
+     }
+
+     .cupcka .info3:hover{
+     
+      opacity: 0.9;
+      
+      top: 392px;
+      left: 536px;
+      width: 236px;
+      height: 84px;
+      background: #C598FB 0% 0% no-repeat padding-box;
+      border-radius: 0px 0px 28px 28px;
+      opacity: 0.95;
+
+      text-align: center;
+      font: normal normal normal 43px/75px Coolvetica;
+      letter-spacing: 0px;
+      color: #FFFFFF;
+      
+     }
+
+     .info4{
+      position: absolute;
+      
+      top: 386px;
+      left: 846px;
+      width: 233px;
+      height: 84px;
+      
+      opacity: 0;
+     }
+
+     .cupcka .info4:hover{
+     
+      opacity: 0.9;
+      
+      top: 392px;
+      left: 800px;
+      width: 233px;
+      height: 84px;
+      background: #C598FB 0% 0% no-repeat padding-box;
+      border-radius: 0px 0px 28px 28px;
+      opacity: 0.95;
+
+      text-align: center;
+      font: normal normal normal 43px/75px Coolvetica;
+      letter-spacing: 0px;
+      color: #FFFFFF;
+      
      }
 
      .cupcka .column1 .galleryy:hover{
-      
-      
-      background: #FFC5FE 0% 0% no-repeat padding-box;
-      
+            
       border-radius: 50px;
       opacity: 1;
       transition: all 500ms ease-out;
@@ -482,10 +575,12 @@ Galeria
       padding-top: 19%;
       margin-left: 35px;
       
+  
     }
 
+
+
     .column2{
-      padding-top: 3%;
       padding-top: 20%;
       
     }
@@ -619,6 +714,15 @@ height: 34px;
 background: #FB9EFA 0% 0% no-repeat padding-box;
 border-radius: 50px;
 opacity: 0.6;
+}
+
+
+/*
+List
+*/
+
+.caketorta{
+  padding: 10%;
 }
 
 /*
