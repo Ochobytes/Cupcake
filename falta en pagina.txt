@@ -1,1 +1,3 @@
 -> Header y Footer, Como lo ubico automaticamente
+
+-> Galeria Desserts, ubicación mas exacta

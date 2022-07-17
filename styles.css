@@ -381,14 +381,141 @@ Galeria
     }
     */
 
+    /*Desserts*/
 
-
-    .gallery_desserts{
-      background-color: #EBD6FF;
+    
+    .logod{
+      position: absolute;
+      top: -5%;
+      left: 4%;
 
     }
 
+    .dessert_gallery{
+      display: flex;
+      position: absolute;
 
+      top: 8%;
+      right: 5%;
+        font: normal normal normal 68px/82px Born to Shine;
+        letter-spacing: 0px;
+        color: #FB9EFA;
+        opacity: 1;
+    }
+
+    .galleryy{
+
+      display: flex;
+      flex-wrap:wrap;
+      margin-bottom: 15%;
+      cursor: pointer;
+    }
+    /*
+    
+    .galleryy a:hover{
+   
+      top: 23px;
+      left: 657px;
+      width: 80;
+      height: 40px;
+  
+      background: #FFC5FE 0% 0% no-repeat padding-box;
+      border-radius: 50px;
+      opacity: 1;
+     }
+     */
+
+     .cake{
+      display: none;
+     }
+
+     .cupcka .column1 .cake:hover{
+      position: absolute;
+      background-color: aqua;
+      display: inline-flex;
+      top: 10%;
+      width: 100%;
+     }
+
+     .cupcka .column1 .galleryy:hover{
+      
+      
+      background: #FFC5FE 0% 0% no-repeat padding-box;
+      
+      border-radius: 50px;
+      opacity: 1;
+      transition: all 500ms ease-out;
+     }
+
+     
+     .cupcka .column2 .galleryy:hover{
+      
+      
+      background: #FFC5FE 0% 0% no-repeat padding-box;
+      
+      border-radius: 50px;
+      opacity: 1;
+      transition: all 500ms ease-out;
+     }
+
+     
+     .cupcka .column3 .galleryy:hover{
+      
+      
+      background: #FFC5FE 0% 0% no-repeat padding-box;
+      
+      border-radius: 50px;
+      opacity: 1;
+      transition: all 500ms ease-out;
+     }
+
+     
+     .cupcka .column4 .galleryy:hover{
+      
+      
+      background: #FFC5FE 0% 0% no-repeat padding-box;
+      
+      border-radius: 50px;
+      opacity: 1;
+      transition: all 500ms ease-out;
+     }
+
+
+    .column1{
+      padding-top: 19%;
+      margin-left: 35px;
+      
+    }
+
+    .column2{
+      padding-top: 3%;
+      padding-top: 20%;
+      
+    }
+
+    .column3{
+      padding: 15px;
+      padding-top: 20%;
+      
+    }
+
+    .column4{
+      padding: 15px;
+      padding-top: 20%;
+      
+    }
+
+/*
+    .rayaGaleria{
+      
+      position: absolute;
+      border-color: red;
+      
+      border-radius: 6px;
+      opacity: 0.40;
+      size: 10%;
+    }
+*/  
     /*
     Responsive
     */
